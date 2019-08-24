@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sakiyamajp/crosproxy/issues"
   },
-  "homepage": "https://github.com/sakiyamajp/crosproxy#readme"
+  "homepage": "https://github.com/sakiyamajp/crosproxy#readme",
+  "dependencies": {
+    "cors-anywhere": "^0.4.1"
+  }
 }
