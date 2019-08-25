@@ -5,7 +5,7 @@ var port = process.env.PORT || 8080;
 
 var cors_proxy = require('cors-anywhere');
 cors_proxy.createServer({
-    originWhitelist: [], // Allow all origins
+    originWhitelist: ["https://liquidtrades.s3-ap-northeast-1.amazonaws.com"], // Allow all origins
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
 }).listen(port, host, function() {
